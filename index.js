@@ -18,7 +18,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url))
 const PKG_ROOT = HERE
 const DEFAULT_LIBRARY = path.join(PKG_ROOT, 'library')
 
-export const name = 'paper-harness'
+export const name = 'dsh-paper-harness'
 
 const DEFAULTS = {
   libraryRoot: '',

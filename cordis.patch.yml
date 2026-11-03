@@ -3,6 +3,6 @@
 # 宿主半区：索引 library 目录下的 PDF、抽取正文与插图、提供检索 API 与 agent 工具。
 # 浏览器半区：client.js 在侧边栏注册「文献台」入口，并在主区域渲染完整页面。
 - insert:
-    - id: paper-harness
-      name: paper-harness
+    - id: dsh-paper-harness
+      name: dsh-paper-harness
       config: {}

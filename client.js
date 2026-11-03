@@ -5,7 +5,7 @@
  * search). All data comes from the host API at /api/paper-harness.
  */
 window.__ModuleLoader__.load({
-  id: 'paper-harness',
+  id: 'dsh-paper-harness',
   factory(require) {
     const React = require('react')
     const h = React.createElement

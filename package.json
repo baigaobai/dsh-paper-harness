@@ -1,5 +1,5 @@
 {
-  "name": "paper-harness",
+  "name": "dsh-paper-harness",
   "version": "0.1.0",
   "description": "文献台 — DeepSeek Harness 的文献阅读工作台：拖入 PDF 即索引，原文可选即问，按页区间翻译，按分类/标签整理。",
   "type": "module",
@@ -9,11 +9,11 @@
   "author": "baigaobai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baigaobai/paper-harness.git"
+    "url": "git+https://github.com/baigaobai/dsh-paper-harness.git"
   },
-  "homepage": "https://github.com/baigaobai/paper-harness#readme",
+  "homepage": "https://github.com/baigaobai/dsh-paper-harness#readme",
   "bugs": {
-    "url": "https://github.com/baigaobai/paper-harness/issues"
+    "url": "https://github.com/baigaobai/dsh-paper-harness/issues"
   },
   "keywords": [
     "deepseek-harness",

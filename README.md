@@ -6,13 +6,15 @@
 给 DeepSeek Harness 用的**文献阅读工作台**插件。把 PDF 丢进文献库文件夹，自动建索引；
 阅读时**左边问 AI、中间是原文、右边是译文**，原文上任何一句都能直接拖选去提问或翻译。
 
-```
-┌──────────────┬───────────────────────┬──────────────┐
-│  AI 阅读助手  │      原文（可选文字）   │    译文       │
-│  · 选句提问   │  版面 / 公式 / 插图    │  · 按页区间   │
-│  · 整篇追问   │  选中即问 · 篇内查找    │  · 逐页复制   │
-└──────────────┴───────────────────────┴──────────────┘
-```
+## 界面
+
+| 文献库 | 原文 · AI · 译文 三栏 |
+| --- | --- |
+| ![文献库](docs/screenshot-library.png) | ![三栏精读](docs/screenshot-reader.png) |
+
+<p align="center">
+  <img src="docs/screenshot-notes.png" alt="信息与笔记" width="620">
+</p>
 
 ## 它能做什么
 
@@ -36,8 +38,8 @@
 ## 安装
 
 ```bash
-git clone https://github.com/baigaobai/paper-harness.git
-cd paper-harness
+git clone https://github.com/baigaobai/dsh-paper-harness.git
+cd dsh-paper-harness
 pnpm install
 ```
 
