@@ -1,0 +1,25 @@
+# 依赖与构建产物
+node_modules/
+.pnpm-store/
+
+# 本地文献库（PDF、索引、译文缓存）—— 只属于你自己，永远不要提交
+library/
+.paper-harness/
+
+# 日志与临时文件
+*.log
+*.tmp
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+
+# 构建/测试残留
+dist/
+coverage/
+_*.mjs
